@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+/dist/
+/.pnpm-store/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Prisma
+/prisma/migrations/
+# Un-comment the next line if you want to ignore the SQLite dev file (if using it locally)
+# *.db
+
+# BullMQ / Redis / OS Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# Operating System Files
+.DS_Store
+Thumbs.db
